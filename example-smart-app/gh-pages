@@ -84,7 +84,7 @@
     <script src='./lib/js/fhir-client-cerner-additions-1.0.0.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>
-      extractData().then(
+      window.extractData().then(
         //Display Patient Demographics and Observations if extractData was success
         function(p) {
           drawVisualization(p);
